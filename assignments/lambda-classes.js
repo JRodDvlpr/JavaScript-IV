@@ -53,12 +53,34 @@ class ProjectManager extends Instructor {
         return `${name}debugs ${student.name}'s code on ${subject}`
     }
 }
+// Instructor Object
 
 const fred = new Instructor({
     name: 'Fred',
     location: 'Bedrock',
     age: 37,
-    favLanguage: 'JavaScript',
+    favLanguage: 'JavaScript, Python',
     specialty: 'Front-end',
     catchPhrase: `Don't forget the homies`
+  });
+
+  // Student Object 
+
+  const student01 = new Student({
+      name: 'Thomas',
+      location: 'grandma house in Florida',
+      className: 'CS132',
+      favSubject: 'React, CSS, Javascript',
+      previousBackground: 'I never graduated',
+    
+  });
+
+  // Porject Manager Object
+
+  const ProjectM01 = new ProjectManager({
+      name: 'Jimmy',
+      location: 'another place in Florida',
+      className: 'CS1',
+      favInstructor: 'John',
+      gradClassName: 'CS1'
   });
