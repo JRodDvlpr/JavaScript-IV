@@ -53,3 +53,12 @@ class ProjectManager extends Instructor {
         return `${name}debugs ${student.name}'s code on ${subject}`
     }
 }
+
+const fred = new Instructor({
+    name: 'Fred',
+    location: 'Bedrock',
+    age: 37,
+    favLanguage: 'JavaScript',
+    specialty: 'Front-end',
+    catchPhrase: `Don't forget the homies`
+  });
