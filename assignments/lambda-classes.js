@@ -55,7 +55,7 @@ class ProjectManager extends Instructor {
 }
 // Instructor Object
 
-const fred = new Instructor({
+const teach01 = new Instructor({
     name: 'Fred',
     location: 'Bedrock',
     age: 37,
@@ -84,3 +84,31 @@ const fred = new Instructor({
       favInstructor: 'John',
       gradClassName: 'CS1'
   });
+
+
+  console.log(teach01.name)
+  console.log(teach01.location)
+  console.log(teach01.age)
+  console.log(teach01.favLanguage)
+  console.log(teach01.specialty)
+  console.log(teach01.catchPhrase)
+  console.log(teach01.demo('Javascipt'))
+  console.log(teach01.grade(student01, student01.className))
+
+  // Student console log
+  console.log(student01.name)
+  console.log(student01.location)
+  console.log(student01.className)
+  console.log(student01.favLanguage)
+  console.log(student01.previousBackground)
+  console.log(student01.listsSubjects( ['HTML', 'CSS', 'Javascript'] ))
+  console.log(student01.PRAssignment(student01, 'CSS'))
+
+  // ProjectManager student console log
+  console.log(ProjectM01.name) 
+  console.log(ProjectM01.location)
+  console.log(ProjectM01.className)
+  console.log(ProjectM01.favLanguage)
+  console.log(ProjectM01.gradClassName) 
+  console.log(ProjectM01.standUp(ProjectM01.name, 'WebPt11_Pace'))
+  console.log(ProjectM01.debugsCode(ProjectM01.name, student01.name, 'CSS'))
